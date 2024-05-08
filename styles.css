@@ -1,0 +1,217 @@
+header {
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+header a img {
+    width: 80px;
+    height: 80px;
+}
+form input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+img:hover {
+    cursor: pointer; 
+}
+
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-bottom: 5px;
+}
+
+#inicio h1 {
+    font-size: xx-large;
+    width: 800px;
+    padding: 30px;
+    text-align: center;
+}
+
+#inicio p {
+    text-align: justify;
+    width: 800px;
+    text-wrap: pretty;
+    text-justify: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+#inicio img {
+    width: 800px;
+}
+#abertura {
+    text-align: center;
+    text-wrap: pretty;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+hr {
+    width: 800px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#time ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#escudo {
+    width: 100px;
+    height: 100px;
+}
+#jogadores {
+    width: 600px;
+    display: block;
+}
+
+#vivo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto; 
+}
+#vivo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#vivo p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 300px;
+}
+#vivo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+#vivo button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 8px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+#lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: justify;
+    list-style-type: none;
+    padding: 0;
+    width: 800px;
+    margin-left: 30px;
+    margin: 0 auto; 
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 800px;
+    margin: 0 auto;
+}
+#lista li {
+    background-color: #333; /* Cor de fundo dos itens da lista */
+    color: #fff; /* Cor do texto dos itens da lista */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 5px; /* Margem entre os itens */
+}
+
+#lista li:hover {
+    background-color: #FF5733; /* Cor de fundo ao passar o mouse */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+#veja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+#news {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#news p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 120px;
+}
+#news img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.mensagem-hover {
+    position: relative;
+    display: inline-block;
+}
+
+.mensagem-hover .mensagem {
+    visibility: hidden;
+    width: 300px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.mensagem-hover:hover .mensagem {
+    visibility: visible;
+    opacity: 1;
+}
+
+footer {
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+
+
